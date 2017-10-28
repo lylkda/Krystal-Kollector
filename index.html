@@ -1,0 +1,55 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs" rel="stylesheet"> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<title>Krystals Kollector</title>
+</head>
+
+<body>
+	<h1>Krystals Kollector</h1>
+
+	<div id="directions">
+		<p>You will be given a random number at the start of the game</p>
+		<p>There are four Krystals below. By clicking on a Krystal, you will add a specific amount of points to your total score.</p>
+		<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+		<p>The value of each Krystal is hidden from you until you click on it.</p>
+		<p>Each time when the game starts, the game will change the value of each Krystal.</p>
+	</div>
+
+	<div class="container">
+		<div id="random-number">
+		</div>
+
+		<div id="score">
+		</div>
+	</div>
+
+
+	<div id="images">
+
+		<img src="assets/images/kryred.png" class="krystals" id="kryred" alt="Red krystal"></img>
+		<img src="assets/images/kryblue.jpg" class="krystals" id="kryblue"  alt="Blue krystal">
+		<img src="assets/images/krybrown.jpg" class="krystals" id="krybrown"  alt="Brunette krystal">
+		<img src="assets/images/kryyellow.png" class="krystals" id="kryyellow"  alt="Blonde krystal">
+
+	</div>
+
+<div class="container">
+	<div id="desc">
+		Your current total score: 
+	</div>
+	<div id="current-score">
+	</div>
+</div>
+
+	<audio id="winSound">
+		<source src="assets/images/winSound.wav"></audio>
+			<audio id="loseSound">
+				<source src="assets/images/loseSound.wav"></audio>
+				</body>
+				<script src="assets/javascript/game.js"></script>
+
